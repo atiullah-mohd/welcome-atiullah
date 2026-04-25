@@ -5,7 +5,7 @@ import pool from "../config/db.js";
 const handleResponse=(res, status,message,data=null)=>{
     res.status(status).json({status, message, data });
 };
-
+//good
 export const createUser=async(req,res,next)=>{
     const userData=req.body;
 
